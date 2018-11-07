@@ -28,7 +28,7 @@ public class Database {
 
 	// I wasn't able to make it work
 	public void createDatabase() {
-		String createDb = "create database IF NOT EXISTS weekly4;";
+		String createDb = "create schema IF NOT EXISTS weekly4;";
 		try {
 			stmt = connection.createStatement();
 			stmt.executeUpdate(createDb);

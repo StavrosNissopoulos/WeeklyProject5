@@ -11,7 +11,8 @@ public class Main {
 		}
 		weekly4.connect();
 		// I wasn't able to create the db through jdbc
-		// weekly4.createDatabase();
+		 weekly4.createDatabase();
+		 
 		weekly4.createTables();
 		myMenu.setMyDb(weekly4);
 		myMenu.runMenu();
